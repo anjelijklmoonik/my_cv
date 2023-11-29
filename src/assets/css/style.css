@@ -11,7 +11,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: black;
+  background-color:#90c8fc;
 }
 
 a {
@@ -274,8 +275,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
-  background-size: cover;
+  background: url("../img/satu.jpg") transparent;
+  background-size:cover;
   position: relative;
 }
 
@@ -288,11 +289,12 @@ h6 {
 #hero:before {
   content: "";
   background: rgba(255, 255, 255, 0.8);
-  position: absolute;
+  position:relative;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 0;
 }
 
 #hero h1 {
@@ -300,18 +302,20 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: black;
+  z-index: 1;
 }
 
 #hero p {
-  color: #45505b;
+  color: white;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
+  z-index: 1;
 }
 
 #hero p span {
-  color: #0563bb;
+  color: black;
   letter-spacing: 1px;
 }
 
@@ -322,14 +326,14 @@ h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #45505b;
+  color: blue;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
 }
 
 #hero .social-links a:hover {
-  color: #0563bb;
+  color: blue;
 }
 
 @media (max-width: 992px) {
@@ -1152,7 +1156,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  background: none;
   color: #45505b;
   font-size: 14px;
   text-align: center;
@@ -1195,7 +1199,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: url("../img/hero.jpg") transparent;
   color: #fff;
   text-decoration: none;
 }

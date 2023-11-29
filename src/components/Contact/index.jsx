@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Contact = () => {
   return (
 <section id="contact" className="contact">
@@ -13,17 +11,17 @@ const Contact = () => {
             <div className="address">
               <i className="bi bi-geo-alt" />
               <h4>Location:</h4>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <p>Airmadidi, North Minahasa, North Sulawesi</p>
             </div>
             <div className="email">
               <i className="bi bi-envelope" />
               <h4>Email:</h4>
-              <p>info@example.com</p>
+              <p>moonikanjeli@gmail.com</p>
             </div>
             <div className="phone">
               <i className="bi bi-phone" />
               <h4>Call:</h4>
-              <p>+1 5589 55488 55s</p>
+              <p>+6285825529340</p>
             </div>
           </div>
         </div>
@@ -31,14 +29,14 @@ const Contact = () => {
           <form action="forms/contact.php" method="post" role="form" className="php-email-form">
             <div className="row">
               <div className="col-md-6 form-group">
-                <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
+                <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required=" " autocomplete="name"/>
               </div>
               <div className="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" required />
+                <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" required="" autoComplete="email"/>
               </div>
             </div>
             <div className="form-group mt-3">
-              <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required />
+              <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required="" autoComplete="subject" />
             </div>
             <div className="form-group mt-3">
               <textarea className="form-control" name="message" rows={5} placeholder="Message" required defaultValue={""} />

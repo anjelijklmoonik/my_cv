@@ -1,29 +1,28 @@
-import React from 'react'
-
 const Skills = () => {
   return (
-<div>    <section id="skills" className="skills section-bg">
+<div>        {/* ======= Skills Section ======= */}
+  <section id="skills" className="skills section-bg">
     <div className="container" data-aos="fade-up">
       <div className="section-title">
         <h2>Skills</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <p>I'm just an ordinary girl, so I don't think that I have that much of skills, but I do have some skills. And you can read it below.</p>
       </div>
       <div className="row skills-content">
         <div className="col-lg-6">
           <div className="progress">
-            <span className="skill">HTML <i className="val">100%</i></span>
+            <span className="skill">HTML <i className="val">90%</i></span>
             <div className="progress-bar-wrap">
               <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} />
             </div>
           </div>
           <div className="progress">
-            <span className="skill">CSS <i className="val">90%</i></span>
+            <span className="skill">CSS <i className="val">80%</i></span>
             <div className="progress-bar-wrap">
               <div className="progress-bar" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} />
             </div>
           </div>
           <div className="progress">
-            <span className="skill">JavaScript <i className="val">75%</i></span>
+            <span className="skill">JavaScript <i className="val">70%</i></span>
             <div className="progress-bar-wrap">
               <div className="progress-bar" role="progressbar" aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
             </div>
@@ -31,19 +30,19 @@ const Skills = () => {
         </div>
         <div className="col-lg-6">
           <div className="progress">
-            <span className="skill">PHP <i className="val">80%</i></span>
+            <span className="skill">WORD <i className="val">90%</i></span>
             <div className="progress-bar-wrap">
               <div className="progress-bar" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} />
             </div>
           </div>
           <div className="progress">
-            <span className="skill">WordPress/CMS <i className="val">90%</i></span>
+            <span className="skill">EXCEL <i className="val">80%</i></span>
             <div className="progress-bar-wrap">
               <div className="progress-bar" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} />
             </div>
           </div>
           <div className="progress">
-            <span className="skill">Photoshop <i className="val">55%</i></span>
+            <span className="skill">POWER POINT <i className="val">85%</i></span>
             <div className="progress-bar-wrap">
               <div className="progress-bar" role="progressbar" aria-valuenow={55} aria-valuemin={0} aria-valuemax={100} />
             </div>
@@ -51,8 +50,9 @@ const Skills = () => {
         </div>
       </div>
     </div>
-  </section>
+  </section>{/* End Skills Section */}
 </div>
+
 
   )
 }

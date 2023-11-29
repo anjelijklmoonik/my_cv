@@ -1,32 +1,33 @@
 import React from 'react'
-import Header from '../components/Header'
-import About from '../components/About'
-import Contact from '../components/Contact'
-import Facts from '../components/Facts'
-import Footer from '../components/Footer'
-import Hero from '../components/Hero'
-import Portfolio from '../components/Portofolio'
-import Resume from '../components/Resume'
-import Services from '../components/Services'
-import Skills from '../components/Skills'
-import Testimonials from '../components/Testimonials'
+import Header from '../components/Header';
+import Hero from '../components/Hero';
+import About from '../components/About';
+import Facts from '../components/Facts';
+import Skills from '../components/Skills';
+import Resume from '../components/Resume';
+// import Services from '../components/Services';
+import Testimonial from '../components/Testimonials';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
+// import Portfolio from '../components/Portofolio';
+
 
 const Pages = () => {
   return (
-    <div>
-        <Header/>
+    <div className='body-wrap'>
+      <Header />
+      <Hero />
         <main id='main'>
-          <Hero/>
-          <About/>
-          <Facts/>
-          <Skills/>
-          <Resume/>
-          <Portfolio/>
-          <Services/>
-          {/* <Testimonials/> */}
-          <Contact/>
+          <About />
+          {/* <Facts /> */}
+          <Skills />
+          <Resume />
+          {/* <Portfolio /> */}
+          {/* <Services /> */}
+          <Testimonial />
+          <Contact />
         </main>
-        <Footer/>
+        <Footer />
     </div>
   )
 }

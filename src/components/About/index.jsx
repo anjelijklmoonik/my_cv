@@ -8,35 +8,34 @@ const About = () => {
       </div>
       <div className="row">
         <div className="col-lg-4">
-          <img src="img/profile-img.jpg" className="img-fluid" alt />
+        <img src="img/profile.jpeg" class="img-fluid" alt="Profile Picture of Anjeli Saskia Moonik"/>
         </div>
         <div className="col-lg-8 pt-4 pt-lg-0 content">   
           <h3>Application Developer &amp; Web Developer.</h3>
-          <p className="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
+          <p className="fst-italic">HI! My full name is Moonik, Anjeli Saskia, and you can call me Anjeli. 
+            I'm a part of Computer Science Faculty of Klabat University, and my major is Informatics.
+            I'm not that good when it comes to Coding, but I really want to be an Application Developer in the future.
+            This is my Mid Project from Front-End Web Development. So, I would like to welcome You and enjoy!
           </p>
           <div className="row">
             <div className="col-lg-6">
               <ul>
-                <li><i className="bi bi-chevron-right" /> <strong>Birthday:</strong> <span>1 May 1995</span></li>
+                <li><i className="bi bi-chevron-right" /> <strong>Birthday:</strong> <span>09 December 2002</span></li>
                 <li><i className="bi bi-chevron-right" /> <strong>Website:</strong> <span>www.example.com</span></li>
-                <li><i className="bi bi-chevron-right" /> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                <li><i className="bi bi-chevron-right" /> <strong>City:</strong> <span>New York, USA</span></li>
+                <li><i className="bi bi-chevron-right" /> <strong>Phone:</strong> <span>+6285825529340</span></li>
+                <li><i className="bi bi-chevron-right" /> <strong>City:</strong> <span>Manado, Indonesia</span></li>
               </ul>
             </div>
             <div className="col-lg-6">
               <ul>
-                <li><i className="bi bi-chevron-right" /> <strong>Age:</strong> <span>30</span></li>
-                <li><i className="bi bi-chevron-right" /> <strong>Degree:</strong> <span>Master</span></li>
-                <li><i className="bi bi-chevron-right" /> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
+                <li><i className="bi bi-chevron-right" /> <strong>Age:</strong> <span>20</span></li>
+                <li><i className="bi bi-chevron-right" /> <strong>Education:</strong> <span>S1 Student</span></li>
+                <li><i className="bi bi-chevron-right" /> <strong>PhEmailone:</strong> <span>moonikanjeli@gmail.com</span></li>
                 <li><i className="bi bi-chevron-right" /> <strong>Freelance:</strong> <span>Available</span></li>
               </ul>
             </div>
           </div>
-          <p>
-            Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-            Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+          <p>As you can see, that some informations about me. It's not that attractive, but still I like it.
           </p>
         </div>
       </div>
